@@ -1,0 +1,48 @@
+2025-07-18T20:19:07.840037-0300 INFO Chamando função 'pipeline_calcular_kpi_de_vendas_consolidado' com args ('data', ['csv', 'parquet']) e kwargs {} utils_log.py
+2025-07-18T20:19:07.840390-0300 INFO Chamando função 'extrair_dados_e_consolidar' com args ('data',) e kwargs {} utils_log.py
+2025-07-18T20:19:07.858389-0300 INFO Função 'extrair_dados_e_consolidar' executada em 0.0178 segundos timer.py
+2025-07-18T20:19:07.866598-0300 INFO Função 'extrair_dados_e_consolidar' retornou             Produto    Categoria  Quantidade  Venda        Data
+0    Notebook Gamer  Eletrônicos           3   1500  2023-01-15
+1     Mouse Sem Fio  Eletrônicos          10     30  2023-01-15
+2  Teclado Mecânico  Eletrônicos           5    100  2023-01-15
+3    Notebook Gamer  Eletrônicos           7   1500  2023-01-16
+4     Mouse Sem Fio  Eletrônicos          10     30  2023-01-16
+5  Teclado Mecânico  Eletrônicos           3    100  2023-01-16
+6    Notebook Gamer  Eletrônicos           2   1500  2023-01-17
+7     Mouse Sem Fio  Eletrônicos          14     30  2023-01-17
+8  Teclado Mecânico  Eletrônicos           2    100  2023-01-17 utils_log.py
+2025-07-18T20:19:07.871030-0300 INFO Chamando função 'calcular_kpi_de_total_de_vendas' com args (            Produto    Categoria  Quantidade  Venda        Data
+0    Notebook Gamer  Eletrônicos           3   1500  2023-01-15
+1     Mouse Sem Fio  Eletrônicos          10     30  2023-01-15
+2  Teclado Mecânico  Eletrônicos           5    100  2023-01-15
+3    Notebook Gamer  Eletrônicos           7   1500  2023-01-16
+4     Mouse Sem Fio  Eletrônicos          10     30  2023-01-16
+5  Teclado Mecânico  Eletrônicos           3    100  2023-01-16
+6    Notebook Gamer  Eletrônicos           2   1500  2023-01-17
+7     Mouse Sem Fio  Eletrônicos          14     30  2023-01-17
+8  Teclado Mecânico  Eletrônicos           2    100  2023-01-17,) e kwargs {} utils_log.py
+2025-07-18T20:19:07.871900-0300 INFO Função 'calcular_kpi_de_total_de_vendas' executada em 0.0005 segundos timer.py
+2025-07-18T20:19:07.875176-0300 INFO Função 'calcular_kpi_de_total_de_vendas' retornou             Produto    Categoria  Quantidade  Venda        Data  Total
+0    Notebook Gamer  Eletrônicos           3   1500  2023-01-15   4500
+1     Mouse Sem Fio  Eletrônicos          10     30  2023-01-15    300
+2  Teclado Mecânico  Eletrônicos           5    100  2023-01-15    500
+3    Notebook Gamer  Eletrônicos           7   1500  2023-01-16  10500
+4     Mouse Sem Fio  Eletrônicos          10     30  2023-01-16    300
+5  Teclado Mecânico  Eletrônicos           3    100  2023-01-16    300
+6    Notebook Gamer  Eletrônicos           2   1500  2023-01-17   3000
+7     Mouse Sem Fio  Eletrônicos          14     30  2023-01-17    420
+8  Teclado Mecânico  Eletrônicos           2    100  2023-01-17    200 utils_log.py
+2025-07-18T20:19:07.881943-0300 INFO Chamando função 'carregar_dados' com args (            Produto    Categoria  Quantidade  Venda        Data  Total
+0    Notebook Gamer  Eletrônicos           3   1500  2023-01-15   4500
+1     Mouse Sem Fio  Eletrônicos          10     30  2023-01-15    300
+2  Teclado Mecânico  Eletrônicos           5    100  2023-01-15    500
+3    Notebook Gamer  Eletrônicos           7   1500  2023-01-16  10500
+4     Mouse Sem Fio  Eletrônicos          10     30  2023-01-16    300
+5  Teclado Mecânico  Eletrônicos           3    100  2023-01-16    300
+6    Notebook Gamer  Eletrônicos           2   1500  2023-01-17   3000
+7     Mouse Sem Fio  Eletrônicos          14     30  2023-01-17    420
+8  Teclado Mecânico  Eletrônicos           2    100  2023-01-17    200, ['csv', 'parquet']) e kwargs {} utils_log.py
+2025-07-18T20:19:07.956561-0300 INFO Função 'carregar_dados' executada em 0.0726 segundos timer.py
+2025-07-18T20:19:07.956940-0300 INFO Função 'carregar_dados' retornou None utils_log.py
+2025-07-18T20:19:07.957087-0300 INFO Função 'pipeline_calcular_kpi_de_vendas_consolidado' executada em 0.1167 segundos timer.py
+2025-07-18T20:19:07.957249-0300 INFO Função 'pipeline_calcular_kpi_de_vendas_consolidado' retornou None utils_log.py
